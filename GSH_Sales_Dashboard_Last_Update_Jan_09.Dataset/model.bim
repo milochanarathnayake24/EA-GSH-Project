@@ -695,17 +695,6 @@
             ],
             "expression": "CALCULATE(SUM('Return Sales'[NET_AMOUNT_CURR]))",
             "lineageTag": "bc0785c8-974c-4600-b174-531db0d57c89"
-          },
-          {
-            "name": "Total Sales Sum",
-            "annotations": [
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
-            "expression": "SUM(Final_Budget_New[Sales Amount])+SUM(Final_Budget_New[Amount])",
-            "lineageTag": "23dd401c-bee0-4e64-ac10-46440ca5c333"
           }
         ],
         "partitions": [
