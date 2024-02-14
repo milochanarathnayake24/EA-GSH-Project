@@ -704,7 +704,7 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "expression": "SUM(Final_Budget_New[Sales Amount])",
+            "expression": "SUM(Final_Budget_New[Sales Amount])+SUM(Final_Budget_New[Amount])",
             "lineageTag": "23dd401c-bee0-4e64-ac10-46440ca5c333"
           }
         ],
